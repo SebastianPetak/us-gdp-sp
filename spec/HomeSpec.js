@@ -16,10 +16,10 @@ describe('Home', function() {
 			winston.log('error', error);
 			done();
 		});
-	})
+	});
 
 	it('has loaded data into it\'s testing environment', function (done) {
 		expect(usGdpResponse).toBeDefined();
 		done();
-	})
-})
+	});
+});
