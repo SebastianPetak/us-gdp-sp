@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-		"startdev": "webpack-dev-server"
+    "startdev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -23,12 +23,17 @@
     "eslint": "^3.15.0",
     "eslint-plugin-react": "^6.9.0",
     "html-webpack-plugin": "^2.28.0",
+    "jasmine": "^2.5.3",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
   "dependencies": {
+    "bluebird": "^3.5.0",
+    "d3": "^4.7.1",
+    "d3.promise": "^2.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2"
+    "react-router": "^3.0.2",
+    "winston": "^2.3.1"
   }
 }
